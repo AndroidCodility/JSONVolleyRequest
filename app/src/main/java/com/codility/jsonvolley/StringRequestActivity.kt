@@ -15,7 +15,8 @@ import kotlinx.android.synthetic.main.string_request.*
  * Created by Govind on 2/6/2018.
  */
 class StringRequestActivity : AppCompatActivity() {
-    private val JSON_URL = "http://192.168.1.31/json/string.json"
+    //Change Your URL Here
+    private val JSON_URL = Utility.BASE_URL.plus("string.json")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

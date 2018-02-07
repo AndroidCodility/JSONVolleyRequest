@@ -9,6 +9,8 @@ import android.net.ConnectivityManager
  * Created by Govind on 2/6/2018.
  */
 object Utility {
+    //Add Base URL Here
+    var BASE_URL: String = "http://192.168.1.31/json/"
 
     @SuppressLint("MissingPermission")
     fun isOnline(context: Context): Boolean {

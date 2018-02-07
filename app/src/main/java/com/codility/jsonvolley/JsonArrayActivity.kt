@@ -19,7 +19,8 @@ import kotlinx.android.synthetic.main.json_array.*
  * Created by Govind on 2/6/2018.
  */
 class JsonArrayActivity : AppCompatActivity() {
-    private val JSON_URL = "http://192.168.1.31/json/json_array.json"
+    //Change Your URL Here
+    private val JSON_URL = Utility.BASE_URL.plus("json_array.json")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

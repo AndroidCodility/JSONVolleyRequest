@@ -22,7 +22,8 @@ import java.util.*
  * Created by Govind on 2/6/2018.
  */
 class JsonObjectActivity : AppCompatActivity() {
-    private var JSON_URL = "http://192.168.1.31/json/json_object.json"
+    //Change Your URL Here
+    private var JSON_URL = Utility.BASE_URL.plus("json_object.json")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
